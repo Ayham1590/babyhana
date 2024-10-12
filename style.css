@@ -1,0 +1,360 @@
+@font-face {
+    font-family: cookie;
+    src: url(5921Cookie-Supply.woff2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cookie;
+    background-color: #ce1927;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ce1927;
+    padding: 10px 90px;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+.buy-button button {
+    background-color: yellow;
+    border: 3px solid black;
+    font-family: cookie;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero-title {
+    width: 100%;
+    max-width: 100%;
+}
+
+.copy-address {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.ca-button {
+    background-color: yellow;
+    border: 3px solid black;
+    font-family: cookie;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.baby-button {
+    background-color: yellow;
+    border: 3px solid black;
+    font-family: cookie;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.telegram-button {
+    background-color: yellow;
+    border: 3px solid black;
+    font-family: cookie;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content,
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .ca-button {
+        font-size: 1rem;
+    }
+}
+
+.social-section {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: yellow;
+    padding: 20px 0;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.social-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .social-button {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.about-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.about-title {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text {
+    font-family: cookie;
+    font-size: 2.0rem;
+    margin-top: 20px;
+    color: #faa326;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .about-text {
+        font-size: 1.2rem;
+    }
+}
+
+.tokenomics-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.tokenomics-title {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.tokenomics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tokenomics-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.tokenomics-item {
+    background-color: orange;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: cookie;
+    font-size: 3rem;
+    color: black;
+    border: 3px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .tokenomics-item {
+        font-size: 1rem;
+        padding: 15px;
+    }
+}
+
+.how-to-buy-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.how-to-buy-title {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.how-to-buy-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.how-to-buy-item {
+    background-color: orange;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 28%;
+    min-width: 250px;
+    box-shadow: 0 20px 0px rgba(0, 0, 0, 30);
+    margin-bottom: 20px;
+    border: 4px solid black;
+}
+
+.how-to-buy-footer {
+    background-color: orange;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 20px 0px rgba(0, 0, 0, 30);
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border: 4px solid black;
+}
+
+.how-to-buy-item h3,
+.how-to-buy-footer h3 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.how-to-buy-item p,
+.how-to-buy-footer p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .how-to-buy-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .how-to-buy-item {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .how-to-buy-footer {
+        width: 90%;
+    }
+}
+
+.footer-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ce1927;
+}
+
+.footer-image {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    color: black;
+    font-family: cookie;
+    margin: 10px 0;
+}
+
+.footer-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: black;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #faa326;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .footer-text {
+        font-size: 0.9rem;
+    }
+
+    .footer-image {
+        max-width: 30%;
+    }
+}
